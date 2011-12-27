@@ -1,0 +1,24 @@
+/* This is a standard 24 column grid layout */
+
+.gridFullWidth{
+    width: 960px;
+}
+
+.gridOneColumn{
+    width:  40px;
+}
+
+.gridTwoColumns{
+    width:  80px;
+}
+
+.gridThreeColumns{
+    width:  120px;
+}
+
+.gridSixteenColumns{
+    width: 640px;
+}
+.pushOneColumn{
+    margin-left: 40px;
+}

@@ -1,0 +1,13 @@
+@import url("./gridLayout.css");
+/* LeftNav Bar */
+.navigationTitle{
+    background-color: #008B8B;
+    font-weight: 700;
+}
+
+#leftNav
+{
+    list-style-type: none;
+    
+    
+}

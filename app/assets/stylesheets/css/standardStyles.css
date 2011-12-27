@@ -1,0 +1,36 @@
+body
+{
+background-color:#808080;
+font-family: Arial,Helvetica,sans-serif;
+font-style: normal;
+font-weight:normal;
+font-size:14px;
+color: #333333;
+}
+
+/* HTML Debug Border */
+.blackBorder{border: black solid;}
+
+/* Text Styles */
+.textCenter{text-align: center;}
+.textLeft{text-align: left;}
+.boldText{font-weight: 700;}
+.underlineText{text-decoration: underline;}
+
+/* Positioning */
+.floatLeft{float: left;}
+.floatRight{float: right;}
+.clearFloat{clear: both;}
+
+h1
+{
+text-align:center;
+font-size: 26px;
+}
+
+div
+{
+    float: left;
+}
+a:link {color:#0000FF;}      /* unvisited link */
+a:visited {color:#800080;}  /* visited link */
