@@ -14,6 +14,7 @@ color: #333333;
 /* Text Styles */
 .textCenter{text-align: center;}
 .textLeft{text-align: left;}
+.textRight{text-align: right;}
 .boldText{font-weight: 700;}
 .underlineText{text-decoration: underline;}
 
