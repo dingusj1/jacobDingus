@@ -23,3 +23,11 @@
 .pushOneColumn{
     margin-left: 40px;
 }
+
+.pushTwoColumns{
+    margin-left: 80px;
+}
+
+.pushThreeColumns{
+    margin-left: 120px;
+}
