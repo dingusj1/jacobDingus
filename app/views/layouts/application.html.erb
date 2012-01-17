@@ -9,8 +9,13 @@
 </head>
 <body>
 <div class="gridFullWidth">
+	
+	<p class="flash"><%= flash[:message] %></p>
+	
 	<%= yield %>
-<div id="footer" class="textRight gridFullWidth">&copy; 2011</div>
+	
+	<div id="footer" class="textRight gridFullWidth">&copy; 2011</div>
+
 </div>
 </body>
 </html>

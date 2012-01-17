@@ -35,3 +35,40 @@ div
 }
 a:link {color:#0000FF;}      /* unvisited link */
 a:visited {color:#800080;}  /* visited link */
+
+/* borrowed css */
+p.flash{
+    background-image:
+        -webkit-gradient(linear, 50% 0%, 50% 100%, 
+        color-stop(0%, rgba(0,0,0,0.4)), 
+        color-stop(100%, rgba(0,0,0,0.6)));
+    background-image:
+        -moz-linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6));
+        background-image:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6));
+        border:3px solid rgba(255, 255, 255, 0.5);
+        -moz-background-clip:padding;
+        -webkit-background-clip:padding;
+        -o-background-clip:padding-box;
+        -ms-background-clip:padding-box;
+        -khtml-background-clip:padding-box;
+    background-clip:padding-box;
+    text-shadow:rgba(0, 0, 0, 0.6) 0 -1px;
+    color:#fff;margin:0 auto;
+    position:relative;
+    top:-10px;
+    left:0;
+    padding:.4em .8em;
+    text-align:center;
+    border-top:0
+}
+
+p.flash:empty{
+    height:0px;
+    overflow:hidden;
+    padding:0;border-width:0;
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+    -o-box-shadow:none;
+    box-shadow:none;
+    background:none
+}
