@@ -10,7 +10,7 @@ class MainsiteController < ApplicationController
 
   def send_mail
     Email_Me::contact_email(params[:email]).deliver
-    flash[:message] = "Email was sent"
+    flash[:message] = $message
     redirect_to mainsite_webume_path
   end
 end
