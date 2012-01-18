@@ -3,7 +3,7 @@ JacobDingus::Application.routes.draw do
   get "mainsite/webume"
   get "mainsite/contactPage"
   post "mainsite/send_mail"
-  post "mainsite/stopSopa"
+  post "mainsite/stopSOPA"
   
   root :to => 'mainsite#stopSOPA'
 
