@@ -3,8 +3,9 @@ JacobDingus::Application.routes.draw do
   get "mainsite/webume"
   get "mainsite/contactPage"
   post "mainsite/send_mail"
+  post "mainsite/stopSopa"
   
-  root :to => 'mainsite#index'
+  root :to => 'mainsite#stopSopa'
 
   # See how all your routes lay out with "rake routes"
 end
