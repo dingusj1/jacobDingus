@@ -2,15 +2,17 @@ source 'http://rubygems.org'
 
 gem 'rails', '3.1.3'
 
-# Bundle edge Rails instead:
-# gem 'rails',     :git => 'git://github.com/rails/rails.git'
+group :production do
+  gem 'pg'
+  gem 'thin', '~> 1.2.11'
+end
 
-gem 'pg'
+group :test, :development do
+  gem 'sqlite3'
+  gem 'capybara'
+  gem 'turn', '~> 0.8.3', :require => false
+end
 
-gem 'thin', '~> 1.2.11'
-
-# Gems used only for assets and not required
-# in production environments by default.
 group :assets do
   gem 'sass-rails',   '~> 3.1.5'
   gem 'coffee-rails', '~> 3.1.1'
@@ -31,7 +33,3 @@ gem 'jquery-rails'
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
 
-group :test do
-  # Pretty printed test output
-  gem 'turn', '~> 0.8.3', :require => false
-end
