@@ -2,9 +2,5 @@ Welcome to Jacob Dingus .com
 This site is really just a chance for me to practice using some new technology
 and to play around with some things I normally wouldn't get a chance to touch
 
-I started off with just an idea to do plain HTML, and then decided to use 
-Heroku for hosting, and then decided that rails would work better with
-Heroku, so made this a Rails app.
-
 Current State: 
 Just a links page with some meatipsum filler.

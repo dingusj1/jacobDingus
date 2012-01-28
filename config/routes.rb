@@ -1,4 +1,6 @@
 JacobDingus::Application.routes.draw do
+  resources :contact_emails
+
   get "mainsite/index"
   get "mainsite/webume"
   get "mainsite/contactPage"
