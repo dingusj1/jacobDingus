@@ -4,18 +4,14 @@
   <head>
     <title>Jacob Dingus</title>
     <%= stylesheet_link_tag    "application" %>
-	<%= javascript_include_tag "application" %>
-	<%= csrf_meta_tags %>
-</head>
-<body>
-<div class="gridFullWidth">
-	
-	<p class="flash"><%= flash[:message] %></p>
-	
-	<%= yield %>
-	
-	<div id="footer" class="textRight gridFullWidth">&copy; 2011</div>
-
-</div>
-</body>
+  	<%= javascript_include_tag "application" %>
+  	<%= csrf_meta_tags %>
+  </head>
+  <body>
+    <div class="gridFullWidth">
+      <p class="flash"><%= flash[:message] %></p>
+	     <%= yield %>
+    </div>
+    <div id="footer" class="textRight gridFullWidth">&copy; 2011</div>
+  </body>
 </html>

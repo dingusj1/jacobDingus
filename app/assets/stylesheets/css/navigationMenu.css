@@ -1,10 +1,16 @@
 /* LeftNav Bar */
 .navigationTitle{
-    background-color: #008B8B;
     font-weight: 700;
 }
 
-#leftNav
-{
-    list-style-type: none;   
+#navigationLinks li{
+  list-style-type: none;
+  display: inline;
+  width: 120px;
+  margin-bottom: 20px;
+}
+
+#linksList li{
+  list-style-type: none;
+  width: 120px;
 }

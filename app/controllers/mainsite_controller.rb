@@ -4,13 +4,11 @@ class MainsiteController < ApplicationController
 
   def webume
   end
-  
-  def contactPage
+
+  def useful_links
   end
 
-  def send_mail
-    Email_Me::contact_email(params[:email]).deliver
-    flash[:message] = @message
-    redirect_to mainsite_webume_path
+  def about_me
   end
+
 end

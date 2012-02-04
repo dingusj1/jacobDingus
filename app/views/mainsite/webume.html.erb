@@ -1,11 +1,11 @@
 <div>
 	<h1> Webume </h1>
-	<ul id="leftNav" class="pushOneColumn gridThreeColumns floatLeft">
-		<li><%= link_to "Home", mainsite_index_path %></li>
+	<ul id="navigationLinks" class="pushOneColumn gridTwentyThreeColumns floatLeft">
+	  <li id="home" class="floatLeft"> <%=link_to "Home", mainsite_index_path %> </li>
+	  <li id="webume" class="floatLeft"> <%=link_to "Webume", mainsite_webume_path %> </li>
+	  <li id="usefulLinks" class="floatRight"> <%=link_to "Useful Links", mainsite_useful_links_path %> </li>
 	</ul>
 	<div id="mainContent" class="pushOneColumn gridSixteenColumns">
-		<p>Typical "under construction" message</p>
-
 		<div id="webumeDetails">
 			<h3><%= link_to "Contact For Additional Info", new_contact_email_path %></h3>
 			<h3>Statement</h3>

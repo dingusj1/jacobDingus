@@ -3,11 +3,11 @@ JacobDingus::Application.routes.draw do
 
   get "mainsite/index"
   get "mainsite/webume"
-  get "mainsite/contactPage"
-  get "mainsite/StopSOPA"
-  post "mainsite/send_mail"
+  get "mainsite/useful_links"
+  get "mainsite/about_me"
   
   root :to => 'mainsite#index'
 
+  get "mainsite/StopSOPA"
   # See how all your routes lay out with "rake routes"
 end
