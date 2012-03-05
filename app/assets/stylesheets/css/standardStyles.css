@@ -6,6 +6,7 @@ font-style: normal;
 font-weight:normal;
 font-size:14px;
 color: #333333;
+float: left;
 }
 
 /* HTML Debug Border */
@@ -23,19 +24,30 @@ color: #333333;
 .floatRight{float: right;}
 .clearFloat{clear: both;}
 
+/* list styling */
+.noListStyle{list-style-type: none;}
 h1
 {
 text-align:center;
 font-size: 26px;
 }
+h3
+{
+    float: left;
+}
 
 ul{
-  margin: 0px;
-  padding: 0px;
-}
+margin: 0px;
+padding: 0px;
+    }
 
 div
 {
+float: left;
+    }
+
+p{
+    margin: 0;
     float: left;
 }
 a:link {color:#0000FF;}      /* unvisited link */
