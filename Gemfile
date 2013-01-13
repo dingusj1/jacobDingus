@@ -1,7 +1,7 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.1.3'
-gem 'ffi', '1.0.9'
+gem 'rails'
+gem 'ffi'
 gem 'newrelic_rpm'
 
 group :production do
