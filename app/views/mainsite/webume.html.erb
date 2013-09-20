@@ -1,49 +1,41 @@
-<div xmlns="http://www.w3.org/1999/html">
-    <h1> Webume </h1>
-    <ul id="navigationLinks" class="pushOneColumn gridTwentyThreeColumns floatLeft">
-      <li id="home" class="floatLeft"> <%=link_to "Home", mainsite_index_path %> </li>
-      <li id="webume" class="floatLeft"> <%=link_to "Webume", mainsite_webume_path %> </li>
-      <li id="usefulLinks" class="floatRight"> <%=link_to "Useful Links", mainsite_useful_links_path %> </li>
-    </ul>
-    <div id="mainContent" class="pushOneColumn">
-        <div id="webumeDetails" class="gridSixteenColumns">
-          <h3 id="contactInfo"><%= link_to "Contact For Additional Info", new_contact_email_path %></h3>
-          <div class="clearFloat"></div>
-          <h3 id="statement">Statement</h3>
-          <div class="clearFloat"></div>
-          <p class="pushOneColumn">I'm a passionate Iteration Manager who enjoys enabling my team to create quality solutions to complex problems</p>
-          <div class="clearFloat"></div>
-          <h3 id="skills">Skills</h3>
-          <div class="clearFloat"></div>
-          <h3 id="languages">Programming Languages Known</h3>
-          <div class="clearFloat"></div>
-          <div class="pushOneColumn gridFifteenColumns">
-            <ul id="languageList">
-              <li class="boldText noListStyle">Fluent</li>
-              <li>COBOL Mainframe</li>
-              <li>ColdFusion</li>
-              <li>Java</li>
-              <br />
-              <li class="boldText noListStyle">Learning</li>
-              <li>Ruby</li>
-              <li>Rails</li>
-              <br />
-              <li class="boldText noListStyle">For the Future</li>
-              <li>Groovy</li>
-              <li>Grails</li>
-              <li>Python</li>
-              <li>Clojure</li>
-              <li>Scala</li>
-              <li>Have Suggestions? Please contact me and let me know</li>
-            </ul>
-            <br />
-
-          </div>
-          <div class="clearFloat"></div>
-          <h3 id="experience" class="floatLeft">Work Experience</h3>
-            <ul id="workExperience">
-              <li class="boldText noListStyle">2006 - 2010</li>
-            </ul>
-        </div>
+<div id="mainContent" class="container">
+  <div class="page-header">
+      <h1>Webume</h1>
+  </div> 
+  <div id="webumeDetails" class="">
+    <h3 id="contactInfo"><%= link_to "Contact For Additional Info", new_contact_email_path %></h3>
+    
+    <h3 id="statement">Statement</h3>
+    <p class="">I'm a passionate Iteration Manager who enjoys enabling my team to create quality solutions to complex problems</p>
+    
+    <h3 id="skills">Skills</h3>
+    
+    <h3 id="languages">Programming Languages Known</h3>
+    <div id="languageList">
+      <ul>
+        <li class="boldText noListStyle">Fluent</li>
+        <li>COBOL Mainframe</li>
+        <li>ColdFusion</li>
+        <li>Java</li>
+        <br />
+        <li class="boldText noListStyle">Learning</li>
+        <li>Ruby</li>
+        <li>Rails</li>
+        <br />
+        <li class="boldText noListStyle">For the Future</li>
+        <li>Groovy</li>
+        <li>Grails</li>
+        <li>Python</li>
+        <li>Clojure</li>
+        <li>Scala</li>
+        <li>Have Suggestions? Please contact me and let me know</li>
+      </ul>
     </div>
+    
+    <h3 id="experience" class="">Work Experience</h3>
+      <ul id="workExperience">
+        <li class="boldText noListStyle">2006 - 2010</li>
+      </ul>
+  </div>
 </div>
+    

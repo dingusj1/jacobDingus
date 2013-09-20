@@ -1,4 +1,4 @@
-<%= form_for(@contact_email, :html => {:class => "gridNineColumns floatLeft"}) do |f| %>
+<%= form_for(@contact_email, :html => {:class => ""}) do |f| %>
   <% if @contact_email.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@contact_email.errors.count, "error") %> prevented your email from being sent:</h2>
@@ -10,7 +10,7 @@
       </ul>
     </div>
   <% end %>
-  <div class="floatLeft" id="emailFormName">
+  <div class="" id="emailFormName">
     <%= f.label :name %><br />
     <%= f.text_field :name %>
   </div>
@@ -20,17 +20,17 @@
     <%= f.email_field :address %>
   </div>
   </br>
-  <div class="floatLeft" id="emailFormSubject">
+  <div class="" id="emailFormSubject">
     <%= f.label :subject %><br />
     <%= f.text_field :subject %>
   </div>
   </br>
-  <div class="floatLeft" id="emailFormBody">
+  <div class="" id="emailFormBody">
     <%= f.label :body %><br />
     <%= f.text_area :body, :cols => 50, :rows => 10 %>
   </div>
   </br>
-  <div class="actions" id="emailFormSubmit">
+  <div class="btn" id="emailFormSubmit">
     <%= f.submit %>
   </div>
 <% end %>
