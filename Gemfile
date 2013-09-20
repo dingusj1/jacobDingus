@@ -7,6 +7,7 @@ gem 'newrelic_rpm'
 group :production do
   gem 'pg'
   gem 'thin', '~> 1.2.11'
+  gem 'rails_12factor'
   ruby '2.0.0'
 end
 
