@@ -8,7 +8,7 @@ group :production do
   gem 'pg'
   gem 'thin', '~> 1.2.11'
   gem 'rails_12factor'
-  ruby '2.0.0'
+  ruby '2.5.5'
 end
 
 group :test, :development do
