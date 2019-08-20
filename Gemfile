@@ -12,15 +12,15 @@ group :production do
 end
 
 group :test, :development do
-#  gem 'sqlite3'
-#  gem 'capybara'
-#  gem 'turn', '~> 0.8.3', :require => false
+  gem 'sqlite3'
+  gem 'capybara'
+  gem 'turn', '~> 0.8.3', :require => false
 end
 
 group :assets do
-#  gem 'sass-rails'
-#  gem 'coffee-rails'
-#  gem 'uglifier'
+  gem 'sass-rails'
+  gem 'coffee-rails'
+  gem 'uglifier'
 end
 
 gem 'jquery-rails'
