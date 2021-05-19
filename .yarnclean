@@ -4,6 +4,10 @@ test
 tests
 powered-test
 
+# asset directories
+docs
+doc
+
 # examples
 example
 examples
