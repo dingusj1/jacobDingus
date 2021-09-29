@@ -8,7 +8,9 @@
     "@rails/webpacker": "^5.4.3",
     "is-svg": "^4.3.1",
     "turbolinks": "^5.2.0",
-    "ansi-regex": "^5.0.1"
+    "ansi-regex": "@^5.0.1",
+    "glob-parent": "@^5.1.2",
+    "set-value": "@^4.0.1"
   },
   "version": "0.1.0"
 }
