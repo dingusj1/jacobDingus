@@ -35,3 +35,12 @@
 yarn-debug.log*
 .yarn-integrity
 db/schema.rb
+
+# Ignore yarn install files
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
