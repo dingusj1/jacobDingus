@@ -192,6 +192,7 @@ GEM
       actionpack (>= 5.2)
       activesupport (>= 5.2)
       sprockets (>= 3.0.0)
+    sqlite3 (1.4.2)
     strscan (3.0.1)
     thor (1.2.1)
     tilt (2.0.10)
@@ -235,9 +236,10 @@ DEPENDENCIES
   jbuilder (~> 2.7)
   pg
   puma (~> 4.3)
-  rails (>= 6.1.4.6)
+  rails (>= 7.0.2.2)
   sass-rails (>= 6)
   selenium-webdriver
+  sqlite3
   turbolinks (~> 5)
   tzinfo-data
   web-console (>= 3.3.0)
